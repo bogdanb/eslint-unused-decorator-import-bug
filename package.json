@@ -1,0 +1,17 @@
+{
+  "name": "test-eslint",
+  "version": "0.0.1-SNAPSHOT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .ts ./src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "7.19.6",
+    "eslint": "8.26.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard-with-typescript": "23.0.0",
+    "eslint-plugin-babel": "5.3.1",
+    "typescript": "4.8.4"
+  }
+}
